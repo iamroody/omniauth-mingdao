@@ -4,7 +4,7 @@ require File.expand_path('../lib/omniauth-mingdao/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = "Yan Wang"
   gem.email         = "wangyan87@gmail.com"
-  gem.description   = %q{OmniAuth Oauth2 strategy for mingdo.}
+  gem.description   = %q{OmniAuth Oauth2 strategy for mingdao.}
   gem.summary       = %q{OmniAuth Oauth2 strategy for mingdao.}
   gem.homepage      = "https://github.com/iamroody/omniauth-mingdao"
   
