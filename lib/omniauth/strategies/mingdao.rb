@@ -4,6 +4,7 @@ module OmniAuth
   module Strategies
     class Mingdao < OmniAuth::Strategies::OAuth2
       option :name, "mingdao"
+      option :provider_ignores_state, true
 
       option :client_options, {
           :site           => "https://api.mingdao.com",
